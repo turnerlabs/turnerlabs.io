@@ -1,0 +1,80 @@
+body {
+
+        margin: 0;
+        padding: 0;
+        background-color: #ffffff; /*#f0f1f6;  */
+        color: #000000; /* #1f2022; */
+        width: 100%;
+        height: 100%;
+
+
+      }
+
+      @font-face {
+        font-family: 'TurnerRegular';
+        src: url('/fonts/TurnerRegular.eot');
+        src: url('/fonts/TurnerRegular.eot?#iefix') format('embedded-opentype'),
+            url('/fonts/TurnerRegular.woff') format('woff'),
+            url('/fonts/TurnerRegular.ttf')  format('truetype'),
+            url('/fonts/TurnerRegular.svg#svgFontName') format('svg');
+      }
+
+
+
+
+
+      @font-face {
+        font-family: 'TurnerBold';
+        src: url('/fonts/TurnerBold.eot');
+        src: url('/fonts/TurnerBold.eot?#iefix') format('embedded-opentype'),
+            url('/fonts/TurnerBold.woff') format('woff'),
+            url('/fonts/TurnerBold.ttf')  format('truetype'),
+            url('/fonts/TurnerBold.svg#svgFontName') format('svg');
+      }
+
+
+      @font-face {
+        font-family: 'TurnerLight';
+        src: url('/fonts/TurnerLight.eot');
+        src: url('/fonts/TurnerLight.eot?#iefix') format('embedded-opentype'),
+            url('/fonts/TurnerLight.woff') format('woff'),
+            url('/fonts/TurnerLight.ttf')  format('truetype'),
+            url('/fonts/TurnerLight.svg#svgFontName') format('svg');
+      }
+
+
+      @font-face {
+        font-family: 'TurnerLightItalic';
+        src: url('/fonts/TurnerLightItalic.eot');
+        src: url('/fonts/TurnerLightItalic.eot?#iefix') format('embedded-opentype'),
+            url('/fonts/TurnerLightItalic.woff') format('woff'),
+            url('/fonts/TurnerLightItalic.ttf')  format('truetype'),
+            url('/fonts/TurnerLightItalic.svg#svgFontName') format('svg');
+      }
+
+
+      .labs {
+
+        font-family: 'TurnerLightItalic', sans-serif;
+        font-size: 1.7em;
+        font-weight: 800;
+        margin-left: 3px;
+
+      }
+
+
+      .t {
+
+        /*background-image: url("t.jpg");*/
+        /*position: fixed;*/
+        background-color: red;
+        width: 75px;
+        height: 75px;
+
+      }
+
+      .container {
+
+        width: 900px;
+        margin: 0px auto 0px auto;
+      }
