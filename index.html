@@ -154,7 +154,10 @@ body {
 
 
 
-      }
+    }
+
+
+
 
       @font-face {
         font-family: 'TurnerRegular';
@@ -205,16 +208,43 @@ body {
         font-size: 1.65em;
         font-weight: 400;
 
-        margin-top: 17px;
+      }
 
+.the-labs {
+          font-size: 16pt;
+        font-weight:400;
+        font-family: 'TurnerLight', sans-serif;
+        color: #3c3c3d;
+        
+        margin-left: 1px;
+        line-height: 18px;
+}
+
+
+      .turner-skew-dark-bar {
+        height: 17px;
+        width: 2px;
+        -moz-transform: skew(-10deg);
+        -webkit-transform: skew(-10deg);
+        transform: skew(-10deg);
+        background-color: #3c3c3d;
+
+        margin-left:6px;
+        margin-right:6px;
+        float:left;
+
+      }
+      .new_logo {
+        
 
 
       }
 
+
       .menu {
 
-        font-family: 'Raleway', sans-serif;
-        font-size: 1.1em;
+        font-family: 'TurnerRegular', sans-serif;
+        font-size: 1.2em;
         font-weight: 600;
         margin-left: 30px;
         float:left;
@@ -235,6 +265,10 @@ body {
       }
 
 
+
+
+
+
       p {
         font-size:11pt;
 
@@ -242,6 +276,20 @@ body {
         /*font-family: 'Open Sans', sans-serif;*/
         font-family: 'Montserrat', sans-serif;
         color: #3c3c3d;
+      }
+
+      .circle {
+        width: 32px;
+        height: 32px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: silver;
+        -moz-border-radius: 16px;
+        -webkit-border-radius: 16px;
+        border-radius: 16px;
+        line-height: 32px;
+        text-align: center;
+        font-size: 16pt;
       }
 
       .container {
@@ -285,22 +333,9 @@ body {
         color: #3c3c3d;
       }
 
-      .badge {
-       position:relative;
-       top:0px;
-
-      height:60px;
-     left: -100px;
-
-      z-index: 1001;
-      margin-left: auto;
-      margin-right: auto;
-      }
-
-      .badge2 {
 
 
-      }
+
 
       .rect {
 
@@ -318,76 +353,49 @@ body {
     <!--<div style='height:5px;width:100%;background-color:#0052E7;position: fixed;top: 0;left: 0;right: 0;'></div>-->
 
     <div class='container'>
-      
+
+
+      <div style='float:left;margin-top:40px'>
+
+        <img src='/assets/images/turner_small.jpg' class='new_logo' style='float:left'/>
+        <div class='turner-skew-dark-bar'></div>
+        <div style='float:left' class='the-labs'>LABS</div>
+        <div style='clear:both'></div>
+
+      </div>
 
 
 
+      <div style='float:right'>
+
+        <div class='menu' style='float:left;margin-top:40px'> BLOG </div>
 
 
-        <table>
-          <tr>
-            <td>
-              <!--<img src='television-screen.png' class='icon'/>-->
-              <img src='/assets/images/tv.png' class='icon'/>
-            </td>
-            
-            <td >
-              <img src='/assets/images/turner.jpg' class='logo'/>
-            </td>
+        <img style='float:left;margin-right:70px;margin-left:30px;margin-top:36px' src='/assets/images/github_logo.png'/>
 
-            <td >
-              <div class='turner-skew-blue-bar'></div>
-            </td>
-            
+        <div class='rect' style='float:left'>
+          <div style='height:46px'></div>
+          <center><img src='/assets/images/t.jpg'/></center>
+        </div>
 
 
-            <td >
-              <div style='width:250px;' class='labs'>CLOUD ENGINEERING</div>
-            </td>
-
-            <!--
-            <td style=''>
-              <div class='labs'>TURNER LABS</div>
-            </td>-->
-            <td>
-              <div style='width:200px;margin-left:50px;margin-top:16px'>
-              <div class='menu' > ABOUT </div> 
-              <!--
-              <div class='menu'> PROJECTS </div> -->
-              <div class='menu'> BLOG </div>
-              </div>
-            </td>
-            <!--
-            <td>
-            <i class="fa fa-github-alt" aria-hidden="true"></i>
-            </td>-->
-            <td style='width:100%'>
-              &nbsp
-            </td>
-            <td>
-              <!--<img class='badge2' src='t.jpg' />-->
-              <div class='rect'>
-                <div style='height:46px'></div>
-                <center><img src='/assets/images/t.jpg'/></center>
-              </div>
-            </td>
-          </tr>
-        </table>
+      </div>
 
 
       <div class='small-spacer'></div>
       <div class='small-spacer'></div>
+      <div class='small-spacer'></div>
+      <div class='small-spacer'></div>
+      <div class='small-spacer'></div>
 
-      
 
 
       <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute <a class="third after" href="#">This is My Link</a> irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
       
-      <div class='headline'>this is experimental. i wonder how it looks?</div>
-      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-      <p> TURNER Labs is our open source presence on Github.  As we use more and more oss, we felt it important to
+      <div class='headline'>COMING SOON TO A BROWSER NEAR YOU</div>
+      <p> TURNER Labs is our open source presence on GitHub.  As we use more and more oss, we felt it important to
       give back to the community.   </p>
-      <p> content here </p>
+      
 
 
 
@@ -399,31 +407,18 @@ body {
       <div style='height:7px;width:80px;background-color: black'></div>
       <div class='small-spacer'></div>
       <div class='medium-header'>HARBOR</div>
-      <div>and a big icon that represents the repo</div>
-      <div>tags and link to repo</div>
-      <div>desc</div>
-      <div>last push</div>
+      <div>more info coming soon!</div>
+
 
 
       <div class='small-spacer'></div>
       <div class='small-spacer'></div>
       <div style='height:7px;width:80px;background-color: black'></div>
       <div class='small-spacer'></div>
-      <div class='medium-header'>TURNER CSS</div>
-      <div>and a big icon that represents the repo</div>
-      <div>tags and link to repo</div>
-      <div>desc</div>
-      <div>last push</div>
+      <div class='medium-header'>SAMLKEYGEN</div>
+      <div>more info coming soon!</div>
 
-      <div class='small-spacer'></div>
-      <div class='small-spacer'></div>
-      <div style='height:7px;width:80px;background-color: black'></div>
-      <div class='small-spacer'></div>
-      <div class='medium-header'>TURNERLABS.IO</div>
-      <div>and a big icon that represents the repo</div>
-      <div>tags and link to repo</div>
-      <div>desc</div>
-      <div>last push</div>
+
 
 
 
